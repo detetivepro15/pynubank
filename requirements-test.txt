@@ -3,3 +3,6 @@ pytest==7.0.1
 pytest-cov==3.0.0
 coveralls==3.3.1
 six==1.16.0
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
